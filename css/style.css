@@ -1,0 +1,667 @@
+  /* --------------------------------NAVBAR CSS START-------------------------------- */
+  .navbar {
+      background-color: #121519;
+      position: fixed;
+      top: 0;
+      left: 0;
+      font-weight: bold;
+      height: 59px;
+
+  }
+
+  .navbar-brand {
+      padding-left: 100px;
+  }
+
+  .nav-button {
+      border: none;
+      background-color: darkslategrey;
+      position: relative;
+      top: 1px;
+      color: white !important;
+      border-radius: 11px;
+      padding: 6px 20px;
+  }
+
+  .navbar-toggler-icon-change {
+      background-color: #767171;
+      border-radius: 3px;
+      font-size: 18px;
+      padding: 11px;
+      color: #121519;
+      border: 2px solid rgb(0, 0, 0);
+      box-shadow: 1px 1px 2px 1px;
+  }
+
+  .navbar-color {
+      background-color: rgb(255, 255, 255) !important;
+  }
+
+  .nav-color {
+      color: #121519 !important;
+  }
+
+  #black-navbar-logo {
+      display: none;
+  }
+
+  .nav-tabs {
+      border-bottom: 1px solid #d9b44e00 !important;
+  }
+
+
+  /* --------------------------------NAVBAR CSS END-------------------------------- */
+
+  /* --------------------------------HOME SECTION CSS START-------------------------------- */
+
+  #Home {
+      position: relative;
+      width: 100%;
+      margin-top: 59px;
+      background-color: #121519;
+  }
+
+  #Home .BTTop {
+      position: fixed;
+      font-size: 1.5rem;
+      bottom: 30px;
+      right: 20px;
+      z-index: 50;
+      color: rgb(185, 221, 5);
+      background-color: rgba(0, 170, 255, 0);
+      width: auto;
+      opacity: 0.7;
+      display: none;
+      border-radius: 10px;
+
+  }
+
+  .home-rating-apps {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+  }
+
+  .home-rating-apps .apps,
+  .home-rating-apps .rating {
+      display: flex;
+      margin-top: 15px;
+  }
+
+  .home-rating-apps .rating p {
+      color: white;
+  }
+
+  .home-rating-apps .apps img {
+      margin-right: 11px;
+      background-color: #ffffff;
+      padding: 3px;
+      border-radius: 7px;
+  }
+
+  .home-rating-apps .fa-star {
+      color: goldenrod;
+      margin-right: 7px;
+      display: inline-block;
+  }
+
+  #Home .BTanim {
+      animation: animate 3s ease infinite;
+      display: block;
+      transition: all 3s;
+  }
+
+  @keyframes animate {
+      0% {
+          transform: scale(1);
+          color: #d2c50d;
+      }
+
+      50% {
+          transform: scale(1.02);
+          color: rgb(220, 216, 14);
+      }
+
+      100% {
+          transform: scale(1);
+          color: rgb(237, 195, 5);
+      }
+  }
+
+  #Home .row {
+      height: 120vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  /* #Home .row .home-box1 {}
+
+  #Home .row .home-box2 {} */
+
+  #Home .home-btn {
+      background-color: #4b5f54;
+      color: white;
+      padding: 9px 30px;
+      border-radius: 9px;
+      font-size: large;
+      margin-top: 17px;
+  }
+
+  .home-box1 .lh-lg {
+      letter-spacing: 2px;
+      text-transform: capitalize;
+  }
+
+  /* --------------------------------HOME SECTION CSS END-------------------------------- */
+
+  /* --------------------------------SERVICE SECTION CSS START-------------------------------- */
+  #service {
+      position: relative;
+      width: 100%;
+      background-color: white;
+  }
+
+  #service .row {
+      margin-top: 25px !important;
+  }
+
+  .fa-arrow-up {
+      color: #000000;
+      font-size: 2rem;
+      transform: rotate(45deg);
+      padding: 5px;
+  }
+
+
+  .box1:hover .fa-arrow-up {
+      border-radius: 50%;
+      color: #ffe205;
+  }
+
+  .service-row {
+      position: relative;
+      padding: 25px;
+  }
+
+  .col .box1 {
+      margin-top: 45px;
+      padding-bottom: 45px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.533);
+  }
+
+  .col :last-child.box1 {
+      border-bottom: none;
+  }
+
+  .col .box1 .box1-heading {
+      display: flex;
+  }
+
+  .col .box1 .box1-heading .heading,
+  .col .box1 .box1-Content .text {
+      width: 80%;
+  }
+
+  .col .box1 .box1-heading .heading {
+      font-size: 21px;
+      color: #121519;
+      font-weight: bold;
+  }
+
+
+  .col .box1 .box1-heading .heading-side-fa i {
+      position: relative;
+      margin-left: 100px;
+  }
+
+  .col .box1 .box1-Content .text-span {
+      float: right;
+  }
+
+  .col .box1 .box1-Content .text p {
+      color: black;
+      line-height: 25px;
+  }
+
+  /* -------------------------------- SERVICE SECTOPN BOX2 CSS------------------------------- */
+  .col .row .secondary-heading {
+      font-size: 15px;
+      color: #37715D;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+  }
+
+  .sec-box-row {
+      padding: 20px;
+  }
+
+  .col .row .primary-heading h2 {
+      font-size: 45px;
+      margin: 0;
+      color: #121519;
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+
+
+  .clients-box .row {
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 100px;
+  }
+
+  .clients-box .cb {
+      padding: 15px;
+      width: 100px;
+      color: black;
+      text-align: center;
+      border-radius: 11px;
+  }
+
+  .clients-box .cb span {
+      font-size: 3rem;
+  }
+
+  .clients-box .cb1 {
+      background-color: rgba(68, 140, 116, 0.1);
+
+  }
+
+  .clients-box .cb2 {
+      background-color: rgba(219, 89, 89, 0.059);
+  }
+
+  .clients-box .cb3 {
+      background-color: rgba(63, 127, 202, 0.1);
+  }
+
+
+
+
+
+
+  /* --------------------------------SERVICE SECTION CSS END-------------------------------- */
+
+  /* --------------------------------EXPERIANCE SECTION CSS START-------------------------------- */
+
+  #experiance {
+      /* height: 100vh; */
+      position: relative;
+      width: 100%;
+      background-color: #000000;
+
+  }
+
+  #experiance .row {
+      margin-top: 100px;
+      position: relative;
+      /* margin-left: 100px; */
+  }
+
+  #experiance .primary>p {
+      font-size: 50px;
+      font-weight: bolder;
+      color: white;
+      position: relative;
+      margin-bottom: 50px;
+  }
+
+  #experiance .primary ul {
+      position: relative;
+      margin-bottom: 100px;
+
+  }
+
+  #experiance .primary ul li {
+      color: white;
+      display: flex;
+
+  }
+
+  #experiance .primary ul li span {
+      height: 110px;
+      width: 45%;
+      /* max-width: 46%; */
+      position: relative;
+      border-right: 3px solid #ffc107;
+
+  }
+
+  #experiance .primary ul li span::after {
+      content: "";
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      border: 4px solid #ffc107;
+      background: #000;
+      position: absolute;
+      right: -12px;
+      top: 10px;
+
+  }
+
+  #experiance .primary ul li .text {
+      height: 100px;
+      margin: 5px 50px;
+  }
+
+  #experiance .primary ul li span h4,
+  #experiance .primary ul li .text p {
+      opacity: 0.6;
+      line-height: 25px;
+  }
+
+  #experiance .primary ul li .text h4 {
+      font-size: 20px;
+      margin-bottom: 5px;
+  }
+
+
+  #experiance .primary .experiance-left-img {
+      position: absolute;
+      bottom: 0px;
+      left: -113px;
+  }
+
+  #experiance .experiance-right-img {
+      position: absolute;
+      bottom: 0px;
+      right: -113px;
+  }
+
+  #experiance .container .row div:nth-of-type(2) {
+      position: relative;
+  }
+
+  #experiance .container .row div:nth-of-type(2)>img {
+      position: absolute;
+      width: 80%;
+      margin: 6%;
+      margin-top: 0px;
+  }
+
+  #experiance .container .row div:nth-of-type(2) .vpb-main {
+      position: relative;
+  }
+
+  #experiance .container .row div:nth-of-type(2) .vpb-main .vpb {
+      width: 90px;
+      height: 90px;
+      position: relative;
+      margin-top: 20%;
+      left: 40%;
+      z-index: 1;
+  }
+
+  #experiance .container .row div:nth-of-type(2) .vpb-main .vpb-bfr {
+      z-index: 0;
+      position: absolute;
+      animation: shadow 1.5s infinite;
+  }
+
+  @keyframes shadow {
+      0% {
+          transform: scale(1);
+          opacity: 0.9;
+      }
+
+
+      100% {
+          transform: scale(2.01);
+          opacity: 0;
+      }
+
+  }
+
+  #experiance .container .row div:nth-of-type(2) .list {
+      display: flex;
+      position: relative;
+      justify-content: space-evenly;
+      margin-top: 37%;
+      margin-bottom: 100px;
+
+  }
+
+  #experiance .container .row div:nth-of-type(2) .list .first-li ul li {
+      padding: 7px;
+  }
+
+  #experiance .container .row div:nth-of-type(2) .list .first-li ul li i {
+      color: #ffc107;
+      margin-right: 10px;
+  }
+
+  /* --------------------------------EXPERIANCE SECTION CSS END-------------------------------- */
+  /* --------------------------------PORTFOLIO SECTION CSS START-------------------------------- */
+  #portfolio {
+      width: 100%;
+      position: relative;
+      background-color: white;
+      color: #000;
+
+  }
+
+  #portfolio .container {
+      padding-top: 100px;
+      position: inherit;
+
+  }
+
+  #portfolio .container .main-col {
+      position: inherit;
+
+  }
+
+  #portfolio .container .main-col h2 {
+      font-size: 4rem;
+      font-weight: bold;
+      font-family: 'Source Sans Pro';
+
+  }
+
+  #portfolio .container .main-col p {
+      position: relative;
+      margin-left: 50px;
+      margin-top: 20px;
+      width: 50%;
+      letter-spacing: 1px;
+      font-size: 1.7rem;
+  }
+
+  #portfolio .container .main-col p::after {
+      content: "";
+      position: absolute;
+      top: 10px;
+      width: 30px;
+      height: 2px;
+      background: #121519;
+      left: -45px;
+  }
+
+  #portfolio .container .card {
+      border-radius: 10px;
+      padding: 25px;
+      background-color: #FAEBC4;
+      margin: 10px 20px;
+  }
+
+  #portfolio .container .card-padding {
+      margin-top: 20px;
+  }
+
+  #portfolio .container>div:last-child {
+      padding-bottom: 100px;
+  }
+
+  #portfolio .container .card-padding .card .fa {
+      position: absolute;
+      right: 0px;
+      top: 5px;
+      font-size: 2rem;
+      transform: rotate(45deg);
+      color: rgb(79, 77, 77);
+  }
+
+  #portfolio .container .card-padding .card .img-ovrflw {
+      overflow: hidden;
+      border: 1px solid black;
+      border-radius: 7px !important;
+  }
+
+  #portfolio .container .card-padding .card .card-img-bottom {
+      transition: all 0.8s;
+      height: 100%;
+
+
+  }
+
+  #portfolio .container .card-padding .card:hover .card-img-bottom {
+      transform: scale(1.09);
+  }
+
+  /* --------------------------------PORTFOLIO SECTION CSS END-------------------------------- */
+
+  /* --------------------------------TEST SECTION CSS START-------------------------------- */
+  #TEST .container {
+      padding: 120px;
+      position: relative;
+
+  }
+
+  #TEST .container .row .col h2 {
+      font-size: 5rem;
+      text-align: center;
+      justify-content: center;
+      color: rgb(224, 186, 73);
+  }
+
+  #TEST .container .row .col p {
+      color: rgba(255, 255, 255, 0.543);
+      margin-top: 20px;
+      line-height: 22px;
+      letter-spacing: 1px;
+  }
+
+  #TEST .container .TEST-left-img {
+      position: absolute;
+      bottom: 0px;
+      left: -113px;
+  }
+
+  #TEST .container .TEST-right-img {
+      position: absolute;
+      bottom: 0px;
+      right: -113px;
+  }
+
+  #TEST .container .carousel {
+      margin-top: 70px;
+  }
+
+  #TEST .container .carousel .carousel-inner img {
+
+      border-radius: 12px;
+      height: 300px;
+  }
+
+  #TEST .container .carousel .carousel-control-prev-icon {
+      position: absolute;
+  }
+
+  #TEST .container .carousel .carousel-control-next-icon {
+      position: absolute;
+  }
+
+  /* --------------------------------TEST SECTION CSS END-------------------------------- */
+  /* --------------------------------CONTACT SECTION CSS START-------------------------------- */
+  #contact {
+      position: relative;
+      width: 100%;
+      padding: 100px 0px;
+      color: black;
+      background-color: white;
+  }
+
+  .contact-heading {
+      z-index: 0;
+      height: 300px;
+      padding-top: 100px;
+      position: relative;
+  }
+
+  .contact-heading h2 {
+      font-size: 7rem;
+      font-style: italic;
+      font-family: 'Source Sans Pro';
+      font-weight: bold;
+  }
+
+  .contact-heading p {
+      font-size: 1.8rem;
+      line-height: 25px;
+      letter-spacing: 1px;
+      opacity: 0.8;
+      padding-top: 30px;
+
+  }
+
+  .contact-heading::before {
+      content: "";
+      position: absolute;
+      bottom: -50%;
+      left: 0;
+      z-index: -1;
+      right: 0;
+      top: 11%;
+      background: #F5F6F9;
+      pointer-events: none;
+      border-radius: 20px;
+      -webkit-transform: skewY(7deg);
+      transform: skewY(7deg);
+  }
+
+  input.form-control{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  select.form-select{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  
+
+
+  /* --------------------------------CONTACT SECTION CSS END-------------------------------- */
+  /* --------------------------------FOOTER SECTION CSS START-------------------------------- */
+  #footer{
+    width: 100%;
+    background-color: #000 ;
+  }
+  #footer .container .row {
+    padding: 100px;
+    padding-bottom: 0px;
+  }
+  #footer .container .row .col-5 table{
+    margin-top: 100px;
+  }
+
+  #footer .container .row .col-5 table tr td input{
+    border-radius: 7px;
+    padding: 11px;
+    opacity: 0.8;
+  }
+  #footer .container .row .col-5 table tr td .fab{
+    padding: 15px;
+    font-size: 2rem;
+  }
+  #footer .container .row .col-5 table tr{
+    padding: 15px;
+    font-size: 2rem;
+    padding-left: 300px;
+  }
+
+
+
+  /* --------------------------------FOOTER SECTION CSS END-------------------------------- */

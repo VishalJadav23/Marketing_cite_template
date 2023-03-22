@@ -1,0 +1,100 @@
+/* --------------------------------MEDIA-QUERY ON MAX-WIDTH:576PX-------------------------------- */
+@media screen and (max-width:576px) {
+    .primary-heading h2 {
+        font-size: 25px !important;
+    }
+
+
+    #experiance .primary ul li span h4,
+    #experiance .primary ul li .text p,
+    #experiance .primary ul li .text h4 {
+        font-size: 14px;
+    }
+
+    #experiance .primary ul li span {
+        height: 160px;
+        word-wrap: none;
+    }
+
+
+    #experiance .primary .experiance-left-img {
+        left: 0px;
+    }
+
+    #experiance .experiance-right-img {
+        right: 0px;
+    }
+
+    #TEST .container {
+        padding: 90px;
+
+    }
+
+    #TEST .container .TEST-left-img {
+
+        left: 0px;
+    }
+
+    #TEST .container .TEST-right-img {
+
+        right: 0px;
+    }
+
+    #TEST .container .row .col h2 {
+        font-size: 3rem;
+
+    }
+
+    #experiance .primary>p {
+        font-size: 20px;
+
+    }
+
+    #portfolio .container .main-col h2 {
+        font-size: 3rem;
+        text-align: center;
+
+    }
+
+    #portfolio .container .main-col p {
+        font-size: 1.3rem;
+        text-align: center;
+        width: 90%;
+        padding: 70px;
+    }
+
+    .contact-heading h2 {
+        font-size: 3rem;
+
+    }
+
+    .contact-heading p {
+        font-size: 1.1rem;
+
+
+    }
+
+    .contact-heading::before {
+        display: none;
+    }
+
+    input.form-control {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    select.form-select {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* --------------------------------MEDIA-QUERY ON MAX-WIDTH:1333PX-------------------------------- */
+
+@media screen and (max-width:1333px) {
+    #experiance .primary>p {
+        font-size: 30px;
+
+    }
+}
